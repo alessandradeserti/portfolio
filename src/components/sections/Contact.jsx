@@ -17,7 +17,7 @@ export const Contact = () => {
               href="mailto:samuelepecci@gmail.com"
               className="text-blue-400 hover:underline"
             >
-              samuelepecci@gmail.com
+              alessandra.deserti01@gmail.com
             </a>
           </p>
           <p className="text-gray-300 text-lg mb-4">
@@ -26,22 +26,22 @@ export const Contact = () => {
               href="tel:+39 3758183570"
               className="text-blue-400 hover:underline"
             >
-              +39 375 818 3570
+              +39 389 944 1212
             </a>
           </p>
           <p className="text-gray-300 text-lg mb-4">
             📸 Instagram:{" "}
             <a
-              href="https://www.instagram.com/samuele_pecci/"
+              href="https://www.instagram.com/alex_dese/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:underline"
             >
-              @samuele_pecci
+              @alex_dese
             </a>
           </p>
           <p className="text-gray-300 text-lg">
-            🌍 Location: Budrio (BO), Italy
+            🌍 Location: Bologna (BO), Italy
           </p>
         </div>
       </RevealOnScroll>

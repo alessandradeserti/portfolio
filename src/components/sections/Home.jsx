@@ -12,11 +12,10 @@ export const Home = () => {
             Hi, I'm Alessandra Deserti
           </h1>
 
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm an Italian personal trainer and kinesiologist with a Master’s in Preventive and
-            Adaptive Motor Activity. I specialize in functional training, female body recomposition,
-            and performance optimization. I believe in building physical and mental strength
-            through tailored, client-focused coaching.
+          <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
+            I’m an Italian fashion model and Master’s student in Management and Business Communication. 
+            With nearly a decade of international freelance experience, I’ve collaborated with top brands and agencies across Europe and the U.S. 
+            I’m currently looking for a Master's thesis project in a company, where I can bridge academic insight with real-world creativity and strategic thinking.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">

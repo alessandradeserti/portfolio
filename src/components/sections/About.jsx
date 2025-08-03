@@ -8,8 +8,8 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
-            💪 About Me
+          <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-transparent">
+            ✨ About Me
           </h2>
 
           {/* Education & Work */}
@@ -19,102 +19,106 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>Master’s Degree in Preventive and Adaptive Motor Activity Sciences and Techniques</strong>
+                  <strong>Master’s Degree in Management e Comunicazione d’Impresa</strong>
                   <br />
-                  <span className="text-sm text-gray-400">University of Ferrara, Italy</span>
+                  <span className="text-sm text-gray-400">University of Bologna (UNIBO)</span>
                   <br />
-                  <span className="text-sm text-gray-400">2021 – 2023</span>
+                  <span className="text-sm text-gray-400">Currently attending</span>
                 </li>
                 <li>
-                  <strong>Bachelor’s Degree in Sport Sciences</strong>
+                  <strong>Bachelor’s Degree in Communication Sciences</strong>
                   <br />
-                  <span className="text-sm text-gray-400">University of Ferrara, Italy</span>
+                  <span className="text-sm text-gray-400">University of Bologna (UNIBO)</span>
                   <br />
-                  <span className="text-sm text-gray-400">2018 – 2021</span>
+                  <span className="text-sm text-gray-400">2020 – Ongoing</span>
                 </li>
                 <li>
-                  <strong>High School Diploma in Electronics, Design and Programming</strong>
+                  <strong>High School Diploma in Languages</strong>
                   <br />
-                  <span className="text-sm text-gray-400">Istituto Tecnico Giordano Bruno, Budrio (BO)</span>
+                  <span className="text-sm text-gray-400">Liceo Linguistico Ludovico Ariosto, Ferrara</span>
                   <br />
-                  <span className="text-sm text-gray-400">Graduated: 2018</span>
+                  <span className="text-sm text-gray-400">Graduated: 2020</span>
                 </li>
               </ul>
             </div>
 
             {/* Work Experience */}
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">🏋️ Work Experience</h3>
+              <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>Personal Trainer – FitActive Bologna</strong>
+                  <strong>Freelance Fashion Model – IMG Models, WMM Models</strong>
                   <br />
-                  <span className="text-sm text-gray-400">2025 – Present</span>
-                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                  <span className="text-sm text-gray-400">2017 – Present</span>
+                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
-                      <li>Autonomous management of training programs and client interactions.</li>
-                      <li>One-to-one coaching and progress tracking through digital platforms.</li>
-                      <li>Sales and commercial activities under VAT regime.</li>
+                      <li>Active collaborations with IMG Models and WMM Models (Milan).</li>
+                      <li>Runway, editorial, and campaign work for major brands including Gucci, Pupa, and Macron.</li>
+                      <li>International experience with THE FACE Paris, DUO Models London, and CLEAR Management Barcelona.</li>
                     </ul>
                   </div>
                 </li>
 
                 <li>
-                  <strong>Studio Manager & PT – Fusco Fitness Bologna</strong>
+                  <strong>Fashion Model – SusyMix</strong>
                   <br />
-                  <span className="text-sm text-gray-400">2024</span>
-                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
-                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
-                      <li>Independent management of a personal training studio.</li>
-                      <li>Focus on female body recomposition and functional training.</li>
-                      <li>Handled body assessments, client scheduling, and product/service sales.</li>
-                    </ul>
-                  </div>
-                </li>
-
-                <li>
-                  <strong>Athletic Trainer – SSD Corticella Football</strong>
-                  <br />
-                  <span className="text-sm text-gray-400">2022 – 2023</span>
-                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                  <span className="text-sm text-gray-400">2022 – Present</span>
+                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
                     <p className="text-sm text-gray-400">
-                      Designed and led performance-enhancing training for youth football players.
+                      Corporate image model for SusyMix (Centergross, Bologna).
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <strong>Coach & Educator – SSD Mezzolara Football</strong>
+                  <strong>International Modeling – Elite Miami (USA)</strong>
                   <br />
-                  <span className="text-sm text-gray-400">2021 – 2022</span>
-                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                  <span className="text-sm text-gray-400">1-month assignment</span>
+                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
                     <p className="text-sm text-gray-400">
-                      Coached “first kicks” category, fostering motor development and discipline.
+                      U.S. modeling experience through Elite agency in Miami.
                     </p>
                   </div>
+                </li>
+
+                <li>
+                  <strong>Receptionist – I Portici Hotel Bologna</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">2021</span>
+                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                    <p className="text-sm text-gray-400">
+                      Worked at the Michelin-starred restaurant front office, handling guest reception and event organization.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <strong>Event Hostess – Bologna Fiere</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">2019</span>
+                  <p className="text-sm text-gray-400">
+                    Supported various stands during major trade shows and public exhibitions.
+                  </p>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* Certifications */}
+          {/* Personal Info */}
           <div className="p-6 mt-8 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">🧾 Personal Information</h3>
+            <h3 className="text-xl font-bold mb-4">🧾 Personal Skills & Interests</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
-                <strong>Languages:</strong> Italian (native), English (B1)
+                <strong>Languages:</strong> Italian (native), English (C1), Spanish (B2), German (B1)
               </li>
               <li>
-                <strong>Driving Licenses:</strong> AM, B
+                <strong>Soft Skills:</strong> Empathy, adaptability, mental agility, and client-oriented communication
               </li>
               <li>
-                <strong>Technical Skills:</strong> Training planning, functional recovery, progress tracking tools
+                <strong>Strengths:</strong> Entrepreneurial mindset, international exposure, cultural fluency
               </li>
               <li>
-                <strong>Personal Traits:</strong> Adaptive, disciplined, empathetic, goal-oriented
-              </li>
-              <li>
-                <strong>Sports Practiced:</strong> Calisthenics, Martial Arts, Gym, Tennis
+                <strong>Interests:</strong> Fashion, brand communication, tennis, personal development
               </li>
             </ul>
           </div>
