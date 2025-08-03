@@ -50,7 +50,7 @@ export const About = () => {
                   <strong>Freelance Fashion Model – IMG Models, WMM Models</strong>
                   <br />
                   <span className="text-sm text-gray-400">2017 – Present</span>
-                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
                       <li>Active collaborations with IMG Models and WMM Models (Milan).</li>
                       <li>Runway, editorial, and campaign work for major brands including Gucci, Pupa, and Macron.</li>
@@ -63,7 +63,7 @@ export const About = () => {
                   <strong>Fashion Model – SusyMix</strong>
                   <br />
                   <span className="text-sm text-gray-400">2022 – Present</span>
-                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <p className="text-sm text-gray-400">
                       Corporate image model for SusyMix (Centergross, Bologna).
                     </p>
@@ -74,7 +74,7 @@ export const About = () => {
                   <strong>International Modeling – Elite Miami (USA)</strong>
                   <br />
                   <span className="text-sm text-gray-400">1-month assignment</span>
-                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <p className="text-sm text-gray-400">
                       U.S. modeling experience through Elite agency in Miami.
                     </p>
@@ -85,7 +85,7 @@ export const About = () => {
                   <strong>Receptionist – I Portici Hotel Bologna</strong>
                   <br />
                   <span className="text-sm text-gray-400">2021</span>
-                  <div className="mt-2 pl-4 border-l-2 border-pink-500">
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <p className="text-sm text-gray-400">
                       Worked at the Michelin-starred restaurant front office, handling guest reception and event organization.
                     </p>
