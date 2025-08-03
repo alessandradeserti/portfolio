@@ -12,7 +12,7 @@ export const Contact = () => {
             📬 Contact
           </h2>
           <p className="text-gray-300 text-lg mb-4">
-            📧 Email:{" "}
+            📧 Mail:{" "}
             <a
               href="mailto:alessandra.deserti01@gmail.com"
               className="text-blue-400 hover:underline"
@@ -29,8 +29,8 @@ export const Contact = () => {
               +39 389 944 1212
             </a>
           </p>
-          <p className="text-gray-300 text-lg mb-4">
-            📸 Instagram:{" "}
+          <p className="text-gray-300 text-lg mb-4 flex items-center justify-center gap-2">
+            <FaInstagram className="text-blue-400" size={20} />
             <a
               href="https://www.instagram.com/alex_dese/"
               target="_blank"
