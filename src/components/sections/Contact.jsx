@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { FaInstagram } from "react-icons/fa";
 
 export const Contact = () => {
   return (
