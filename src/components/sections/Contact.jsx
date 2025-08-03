@@ -12,7 +12,7 @@ export const Contact = () => {
             📬 Contact
           </h2>
           <p className="text-gray-300 text-lg mb-4">
-            📧 Mail:{" "}
+            📧 Email:{" "}
             <a
               href="mailto:alessandra.deserti01@gmail.com"
               className="text-blue-400 hover:underline"
