@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             href="#home"
             className="whitespace-nowrap text-sm sm:text-base md:text-lg font-mono font-semibold text-white tracking-tight"
           >
-            Samuele&nbsp;Pecci<span className="text-blue-400"> Personal Trainer</span>
+            Alessandra&nbsp;Deserti<span className="text-blue-400"> Fashion Model</span>
           </a>
 
           <div
@@ -44,10 +44,10 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Skills
             </a>
             <a
-              href="#gallery"
+              href="#collaborations"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Gallery
+              Collaborations
             </a>
             <a
               href="#contact"
