@@ -58,6 +58,7 @@ export const Collaborations = () => {
       ig: "https://www.instagram.com/liscostanzo/",
       site: "https://models.com/people/irina-lis-costanzo",
     },
+    /*
     {
       img: maredimoda,
       alt: "Mare di Moda",
@@ -65,6 +66,7 @@ export const Collaborations = () => {
       ig: "https://www.instagram.com/maredimoda/",
       site: "https://maredimoda.com/en/home-en/",
     },
+    */
     {
       img: missitalia,
       alt: "Miss Italia",
@@ -176,8 +178,8 @@ export const Collaborations = () => {
     { name: "Macron", ig: "https://www.instagram.com/macron/", site: "https://www.macron.com/it/" },
     { name: "SusyMix", ig: "https://www.instagram.com/susymixofficial/", site: "https://www.susymix.com/en/" },
     { name: "Wyld Box Jewelry (Miami)", ig: "https://www.instagram.com/wyldboxjewelry/", site: "https://wyldboxjewelry.com/" },
+    { name: "Mare di Moda", ig: "https://www.instagram.com/maredimoda/", site: "https://maredimoda.com/en/home-en/" },
   ];
-
   return (
     <section
       id="collaborations"
@@ -200,10 +202,20 @@ export const Collaborations = () => {
                 />
                 <p className="mt-3 text-gray-200 font-medium text-lg">{brand}</p>
                 <div className="flex gap-3 mt-2">
-                  <a href={ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+                  <a
+                    href={ig}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-pink-500 hover:text-pink-400"
+                  >
                     <FaInstagram size={20} />
                   </a>
-                  <a href={site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                  <a
+                    href={site}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300"
+                  >
                     <FaGlobe size={20} />
                   </a>
                 </div>
@@ -213,24 +225,149 @@ export const Collaborations = () => {
         </div>
 
         {/* Other Brands */}
-        <h3 className="text-xl text-white font-semibold mb-6">Other Collaborations</h3>
-        <div className="flex flex-wrap justify-center gap-4">
-          {otherBrands.map(({ name, ig, site }, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center bg-white/5 p-3 rounded-lg shadow-md hover:shadow-xl transition-all"
-            >
-              <p className="text-gray-300 text-sm font-medium">{name}</p>
-              <div className="flex gap-2 mt-2">
-                <a href={ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
-                  <FaInstagram size={16} />
-                </a>
-                <a href={site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
-                  <FaGlobe size={16} />
-                </a>
-              </div>
+        <h3 className="text-xl text-white font-semibold mb-10">Other Collaborations</h3>
+
+        <div className="space-y-14 w-full text-left">
+          {/* Fashion & Retail */}
+          <div>
+            <h4 className="text-lg text-white font-semibold mb-4">🧳 Fashion & Retail</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {[
+                "Gucci", "Macron", "Piazza Italia", "Pepco", "Oltre Fashion", "Luisa Via Roma", "Rinascente", "Sinsay", "SusyMix"
+              ].map(name => {
+                const brand = otherBrands.find(b => b.name === name);
+                return brand && (
+                  <div
+                    key={name}
+                    className="flex flex-col items-center bg-white/5 p-4 rounded-xl shadow-md hover:shadow-xl transition-all"
+                  >
+                    <p className="text-gray-200 font-medium">{brand.name}</p>
+                    <div className="flex gap-3 mt-2">
+                      <a href={brand.ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+                        <FaInstagram size={18} />
+                      </a>
+                      <a href={brand.site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                        <FaGlobe size={18} />
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
-          ))}
+          </div>
+
+          {/* Beauty & Jewelry */}
+          <div>
+            <h4 className="text-lg text-white font-semibold mb-4">💄 Beauty & Jewelry</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {[
+                "Nee Make Up", "Wyld Box Jewelry (Miami)", "Pesavento", "Bulgari", "Vanbruun"
+              ].map(name => {
+                const brand = otherBrands.find(b => b.name === name);
+                return brand && (
+                  <div
+                    key={name}
+                    className="flex flex-col items-center bg-white/5 p-4 rounded-xl shadow-md hover:shadow-xl transition-all"
+                  >
+                    <p className="text-gray-200 font-medium">{brand.name}</p>
+                    <div className="flex gap-3 mt-2">
+                      <a href={brand.ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+                        <FaInstagram size={18} />
+                      </a>
+                      <a href={brand.site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                        <FaGlobe size={18} />
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Magazines & Editorial */}
+          <div>
+            <h4 className="text-lg text-white font-semibold mb-4">📰 Magazines & Editorial</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {[
+                "Vanity Fair", "Brickell Magazine", "Il Te delle 5", "Key Biscayne Magazine"
+              ].map(name => {
+                const brand = otherBrands.find(b => b.name === name);
+                return brand && (
+                  <div
+                    key={name}
+                    className="flex flex-col items-center bg-white/5 p-4 rounded-xl shadow-md hover:shadow-xl transition-all"
+                  >
+                    <p className="text-gray-200 font-medium">{brand.name}</p>
+                    <div className="flex gap-3 mt-2">
+                      <a href={brand.ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+                        <FaInstagram size={18} />
+                      </a>
+                      <a href={brand.site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                        <FaGlobe size={18} />
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Modeling Agencies */}
+          <div>
+            <h4 className="text-lg text-white font-semibold mb-4">🏢 Agencies & Management</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {[
+                "IMG Models (Milan)", "WMM Models (Milan)", "DUO Model (London)",
+                "Elite (Miami, USA)", "THE FACE (Paris)", "CLEAR Management (Barcelona)"
+              ].map(name => {
+                const brand = otherBrands.find(b => b.name === name);
+                return brand && (
+                  <div
+                    key={name}
+                    className="flex flex-col items-center bg-white/5 p-4 rounded-xl shadow-md hover:shadow-xl transition-all"
+                  >
+                    <p className="text-gray-200 font-medium text-center">{brand.name}</p>
+                    <div className="flex gap-3 mt-2">
+                      <a href={brand.ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+                        <FaInstagram size={18} />
+                      </a>
+                      <a href={brand.site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                        <FaGlobe size={18} />
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Events & Retail Spaces */}
+          <div>
+            <h4 className="text-lg text-white font-semibold mb-4">🏆 Events & Retail Spaces</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {[
+                "OrioCenter", "Mare di Moda", "Saint James", "Luxottica", "DiverseSystem"
+              ].map(name => {
+                const brand = otherBrands.find(b => b.name === name);
+                return brand && (
+                  <div
+                    key={name}
+                    className="flex flex-col items-center bg-white/5 p-4 rounded-xl shadow-md hover:shadow-xl transition-all"
+                  >
+                    <p className="text-gray-200 font-medium">{brand.name}</p>
+                    <div className="flex gap-3 mt-2">
+                      <a href={brand.ig} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400">
+                        <FaInstagram size={18} />
+                      </a>
+                      <a href={brand.site} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                        <FaGlobe size={18} />
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </section>
