@@ -37,7 +37,7 @@ export const About = () => {
                   <br />
                   <span className="text-sm text-gray-400">Liceo Linguistico Ludovico Ariosto, Ferrara</span>
                   <br />
-                  <span className="text-sm text-gray-400">Graduated: 2020</span>
+                  <span className="text-sm text-gray-400">09/2015 – 07/2020</span>
                 </li>
               </ul>
             </div>
