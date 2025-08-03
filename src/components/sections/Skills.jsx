@@ -3,9 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Skills = () => {
   const FashionAndModeling = [
     "Editorial & Commercial Modeling",
-    "Runway & Catwalk",
     "Posing & Body Expression",
-    "Styling Collaboration",
     "High Fashion Campaigns",
     "Photographic Adaptability"
   ];
@@ -15,17 +13,13 @@ export const Skills = () => {
     "Marketing Fundamentals",
     "Content Strategy",
     "Social Media Management",
-    "Public Relations",
-    "Corporate Communication"
   ];
 
   const SoftSkills = [
-    "Empathy & Active Listening",
     "Cultural Adaptability",
     "Multilingual Communication",
     "Client-Oriented Mindset",
     "Team Collaboration",
-    "Professional Demeanor"
   ];
 
   const ToolsAndLanguages = [
@@ -33,8 +27,6 @@ export const Skills = () => {
     "English (C1)",
     "Spanish (B2)",
     "German (B1)",
-    "Google Workspace",
-    "Canva / Figma Basics"
   ];
 
   return (

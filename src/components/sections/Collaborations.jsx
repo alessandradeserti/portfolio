@@ -174,7 +174,7 @@ export const Collaborations = () => {
                   <h3 className="text-xl font-bold mb-4 text-white">{sectionTitle}</h3>
                   <div className="flex flex-wrap justify-center gap-2">
                     {brandList.map((brand, i) => (
-                      <span key={i} className="bg-white/10 text-white py-1 px-3 rounded-full text-sm hover:bg-white/20 transition">
+                      <span key={i} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
                         {brand}
                       </span>
                     ))}
