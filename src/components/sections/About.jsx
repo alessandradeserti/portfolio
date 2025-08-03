@@ -118,7 +118,7 @@ export const About = () => {
                 <strong>Strengths:</strong> Entrepreneurial mindset, international exposure, cultural fluency
               </li>
               <li>
-                <strong>Interests:</strong> Fashion, brand communication, tennis, personal development
+                <strong>Interests:</strong> Fashion, brand communication, marketing, tennis, personal development
               </li>
             </ul>
           </div>

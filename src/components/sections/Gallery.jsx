@@ -1,43 +1,28 @@
-import samuelePortrait from "../../assets/me_myself.jpg";
-import handstandOutdoor from "../../assets/handstand_outdoor.png";
-import plancheOnParallettes from "../../assets/planche_on_parallettes.png";
-import deadliftTraining from "../../assets/deadlift_training.png";
-import cableRowsGym from "../../assets/cable_rows_gym.png";
-import trxBackRowOutdoor from "../../assets/trx_back_row_outdoor.png";
+import image1 from "../../assets/gallery/image1.png";
+import image2 from "../../assets/gallery/image2.png";
+import image3 from "../../assets/gallery/image3.png";
+import image4 from "../../assets/gallery/image4.png";
+import image5 from "../../assets/gallery/image5.png";
+import image6 from "../../assets/gallery/image6.png";
+import image7 from "../../assets/gallery/image7.png";
+import image8 from "../../assets/gallery/image8.png";
+import image9 from "../../assets/gallery/image9.png";
+import image10 from "../../assets/gallery/image10.png";
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Gallery = () => {
   const items = [
-    {
-      img: samuelePortrait,
-      alt: "Studio portrait",
-      caption: "🎓 Master's Degree – 2024",
-    },
-    {
-      img: handstandOutdoor,
-      alt: "Outdoor handstand",
-      caption: "🏖️ Handstand at Lake Garda",
-    },
-    {
-      img: plancheOnParallettes,
-      alt: "Planche on parallettes",
-      caption: "🤸 Planche on parallettes – indoor",
-    },
-    {
-      img: deadliftTraining,
-      alt: "Deadlift training",
-      caption: "🏋️ Deadlift session – strength & form",
-    },
-    {
-      img: cableRowsGym,
-      alt: "Cable row machine",
-      caption: "💪 Lat pulldown / cable rows",
-    },
-    {
-      img: trxBackRowOutdoor,
-      alt: "TRX back row outdoor",
-      caption: "🏞️ TRX back rows – natural training",
-    },
+    { img: image1, alt: "Gallery image 1", caption: "" },
+    { img: image2, alt: "Gallery image 2", caption: "" },
+    { img: image3, alt: "Gallery image 3", caption: "" },
+    { img: image4, alt: "Gallery image 4", caption: "" },
+    { img: image5, alt: "Gallery image 5", caption: "" },
+    { img: image6, alt: "Gallery image 6", caption: "" },
+    { img: image7, alt: "Gallery image 7", caption: "" },
+    { img: image8, alt: "Gallery image 8", caption: "" },
+    { img: image9, alt: "Gallery image 9", caption: "" },
+    { img: image10, alt: "Gallery image 10", caption: "" },
   ];
 
   return (
@@ -46,7 +31,7 @@ export const Gallery = () => {
       className="min-h-screen py-20 bg-black flex items-center justify-center"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-10 emoji-title bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold mb-10 emoji-title bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-transparent">
           📸 Gallery
         </h2>
 
