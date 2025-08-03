@@ -1,13 +1,20 @@
-import image1 from "../../assets/gallery/image1.png";
-import image2 from "../../assets/gallery/image2.png";
-import image3 from "../../assets/gallery/image3.png";
-import image4 from "../../assets/gallery/image4.png";
-import image5 from "../../assets/gallery/image5.png";
-import image6 from "../../assets/gallery/image6.png";
-import image7 from "../../assets/gallery/image7.png";
-import image8 from "../../assets/gallery/image8.png";
-import image9 from "../../assets/gallery/image9.png";
-import image10 from "../../assets/gallery/image10.png";
+import angelacarpio from "../../assets/gallery/angelacarpio.png";
+import brickell from "../../assets/gallery/brickell.png";
+import iltedelle5 from "../../assets/gallery/iltedelle5.png";
+import keybiscayne from "../../assets/gallery/keybiscayne.png";
+import liscostanzo from "../../assets/gallery/liscostanzo.png";
+import maredimoda from "../../assets/gallery/maredimoda.png";
+import missitalia from "../../assets/gallery/missitalia.png";
+import neemakeup from "../../assets/gallery/neemakeup.png";
+import oltre from "../../assets/gallery/oltre.png";
+import pepco from "../../assets/gallery/pepco.png";
+import pesavento from "../../assets/gallery/pesavento.png";
+import piazzaitalia from "../../assets/gallery/piazzaitalia.png";
+import pupamilano from "../../assets/gallery/pupamilano.png";
+import rinascente from "../../assets/gallery/rinascente.png";
+import sammontana from "../../assets/gallery/sammontana.png";
+import vanbruun from "../../assets/gallery/vanbruun.png";
+import vanityfair from "../../assets/gallery/vanityfair.png";
 
 import { RevealOnScroll } from "../RevealOnScroll";
 import { FaInstagram, FaGlobe } from "react-icons/fa";
@@ -15,60 +22,123 @@ import { FaInstagram, FaGlobe } from "react-icons/fa";
 export const Collaborations = () => {
   const featured = [
     {
-      img: image1,
+      img: angelacarpio,
+      alt: "Angela Carpio",
+      brand: "Angela Carpio Firenze",
+      ig: "https://www.instagram.com/angelacarpio_firenze/",
+      site: "https://angelacarpio.com/",
+    },
+    {
+      img: brickell,
+      alt: "Brickell Magazine",
+      brand: "Brickell Magazine",
+      ig: "https://www.instagram.com/brickellmag/",
+      site: "https://brickellmag.com/",
+    },
+    {
+      img: iltedelle5,
+      alt: "Il Te delle 5",
+      brand: "Il Te delle 5",
+      ig: "https://www.instagram.com/ilthedelle5/",
+      site: "https://ilthedelle5.com/",
+    },
+    {
+      img: keybiscayne,
       alt: "Key Biscayne Magazine",
       brand: "Key Biscayne Magazine",
       ig: "https://www.instagram.com/keybiscaynemag/",
       site: "https://keybiscaynemag.com/",
     },
     {
-      img: image2,
-      alt: "Rinascente",
-      brand: "Rinascente",
-      ig: "https://www.instagram.com/rinascente/",
-      site: "https://www.rinascente.it/it/",
+      img: liscostanzo,
+      alt: "Lis Costanzo",
+      brand: "Lis Costanzo",
+      ig: "https://www.instagram.com/liscostanzo/",
+      site: "https://models.com/people/irina-lis-costanzo",
     },
     {
-      img: image3,
-      alt: "Lisanza Intimo",
-      brand: "Lisanza Intimo",
-      ig: "https://www.instagram.com/lisanzaiintimo/",
-      site: "#",
+      img: maredimoda,
+      alt: "Mare di Moda",
+      brand: "Mare di Moda",
+      ig: "https://www.instagram.com/maredimoda/",
+      site: "https://maredimoda.com/en/home-en/",
     },
     {
-      img: image4,
-      alt: "Wyld Box Jewelry",
-      brand: "Wyld Box Jewelry",
-      ig: "https://www.instagram.com/wyldboxjewelry/",
-      site: "https://wyldboxjewelry.com/",
+      img: missitalia,
+      alt: "Miss Italia",
+      brand: "Miss Italia",
+      ig: "https://www.instagram.com/missitaliaemiliaromagna/",
+      site: "https://www.missitalia.it/",
     },
     {
-      img: image5,
+      img: neemakeup,
+      alt: "Nee Make Up Milano",
+      brand: "Nee Make Up Milano",
+      ig: "https://www.instagram.com/neemakeupmilano/",
+      site: "https://en.neemakeupmilano.com/",
+    },
+    {
+      img: oltre,
+      alt: "Oltre Fashion",
+      brand: "Oltre Fashion",
+      ig: "https://www.instagram.com/oltrefashion/",
+      site: "https://www.oltre.com/",
+    },
+    {
+      img: pepco,
+      alt: "Pepco",
+      brand: "Pepco",
+      ig: "https://www.instagram.com/pepco_it/",
+      site: "https://pepco.it/",
+    },
+    {
+      img: pesavento,
+      alt: "Pesavento",
+      brand: "Pesavento",
+      ig: "https://www.instagram.com/pesavento_artexpressions/",
+      site: "https://www.pesavento.com/",
+    },
+    {
+      img: piazzaitalia,
+      alt: "Piazza Italia",
+      brand: "Piazza Italia",
+      ig: "https://www.instagram.com/piazzaitaliaofficial/",
+      site: "https://www.piazzaitalia.it/",
+    },
+    {
+      img: pupamilano,
       alt: "Pupa Milano",
       brand: "Pupa Milano",
       ig: "https://www.instagram.com/pupamilanoitaly/",
       site: "https://www.pupa.it/home",
     },
     {
-      img: image6,
-      alt: "Vanity Fair Italia",
-      brand: "Vanity Fair Italia",
+      img: rinascente,
+      alt: "Rinascente",
+      brand: "Rinascente",
+      ig: "https://www.instagram.com/rinascente/",
+      site: "https://www.rinascente.it/it/",
+    },
+    {
+      img: sammontana,
+      alt: "Sammontana",
+      brand: "Sammontana",
+      ig: "https://www.instagram.com/gelatisammontana/",
+      site: "https://www.sammontana.it/",
+    },
+    {
+      img: vanbruun,
+      alt: "Vanbruun",
+      brand: "Vanbruun",
+      ig: "https://www.instagram.com/vanbruun/",
+      site: "https://vanbruun.com/en-se",
+    },
+    {
+      img: vanityfair,
+      alt: "Vanity Fair",
+      brand: "Vanity Fair",
       ig: "https://www.instagram.com/vanityfairitalia/",
       site: "https://www.vanityfair.it/",
-    },
-    {
-      img: image7,
-      alt: "Macron",
-      brand: "Macron",
-      ig: "https://www.instagram.com/macron/",
-      site: "https://www.macron.com/it/",
-    },
-    {
-      img: image8,
-      alt: "SusyMix",
-      brand: "SusyMix",
-      ig: "https://www.instagram.com/susymixofficial/",
-      site: "https://www.susymix.com/en/",
     },
   ];
 
@@ -145,3 +215,73 @@ export const Collaborations = () => {
     </section>
   );
 };
+
+
+
+
+/* Brands
+Brickell Magazine https://www.instagram.com/brickellmag/ https://brickellmag.com/
+
+Key Biscayne Magazine https://www.instagram.com/keybiscaynemag/ https://keybiscaynemag.com/
+
+Pepco https://www.instagram.com/pepco_it/ https://www.instagram.com/pepcopl/ https://pepco.it/
+
+DiverseSystem https://www.instagram.com/diversesystem/ https://diversesystem.com/en
+
+Oltre Fashion https://www.instagram.com/oltrefashion/ https://www.oltre.com/
+
+Il Te delle 5 https://www.instagram.com/ilthedelle5/ https://ilthedelle5.com/
+
+Pesavento https://www.instagram.com/pesavento_artexpressions/ https://www.pesavento.com/
+
+Vanity Fair https://www.instagram.com/vanityfairitalia/ https://www.vanityfair.it/
+
+Luisa Via Roma https://www.instagram.com/luisaviaroma/ https://www.luisaviaroma.com/
+
+Sammontana https://www.instagram.com/gelatisammontana/ https://www.sammontana.it/
+
+Nee Make Up https://www.instagram.com/neemakeupmilano/ https://en.neemakeupmilano.com/
+
+Vanbruun https://www.instagram.com/vanbruun/ https://vanbruun.com/en-se
+
+Piazza Italia https://www.instagram.com/piazzaitaliaofficial/ https://www.piazzaitalia.it/
+
+Pupa Milano https://www.instagram.com/pupamilanoitaly/ https://www.pupa.it/home
+
+Saint James https://www.instagram.com/saintjames/ https://eu.saint-james.com/
+
+OrioCenter https://www.instagram.com/oriocenter/ https://www.oriocenter.it/it
+
+IMG Models (Milan) https://www.instagram.com/imgmodels/ https://imgmodels.com/
+
+WMM Models (Milan) https://www.instagram.com/wmmmodels/ https://www.wmm-models.com/
+
+THE FACE (Paris) https://www.instagram.com/thefaceparis/ https://models.com/agency/the-face
+
+Liscostanzo https://www.instagram.com/liscostanzo/ https://models.com/people/irina-lis-costanzo
+
+Sinsay https://www.instagram.com/sinsay/ https://www.sinsay.com/it/
+
+Angela Carpio Firenze https://www.instagram.com/angelacarpio_firenze/ https://angelacarpio.com/
+
+Miss Italia https://www.instagram.com/missitaliaemiliaromagna/ https://www.missitalia.it/
+
+DUO Model (London) https://www.instagram.com/duomodelmgmt/ https://www.duomodelmgmt.com/
+
+Mare di moda https://www.instagram.com/maredimoda/ https://maredimoda.com/en/home-en/
+
+CLEAR Management (Barcelona) https://www.instagram.com/clearmodelsmgmt/ https://www.clearmanagement.es/
+
+Elite (Miami, USA) https://www.instagram.com/elitemodelworld/ https://www.elitemodels.com/
+
+Gucci https://www.instagram.com/gucci/ https://www.gucci.com/it/it/
+
+Macron https://www.instagram.com/macron/ https://www.macron.com/it/
+
+SusyMix https://www.instagram.com/susymixofficial/ https://www.susymix.com/en/
+
+Rinascente https://www.instagram.com/rinascente/ https://www.rinascente.it/it/
+
+Wyld Box Jewelry (Miami) https://www.instagram.com/wyldboxjewelry/ https://wyldboxjewelry.com/
+
+*/

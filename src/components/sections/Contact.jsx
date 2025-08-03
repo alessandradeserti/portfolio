@@ -14,7 +14,7 @@ export const Contact = () => {
           <p className="text-gray-300 text-lg mb-4">
             📧 Email:{" "}
             <a
-              href="mailto:samuelepecci@gmail.com"
+              href="mailto:alessandra.deserti01@gmail.com"
               className="text-blue-400 hover:underline"
             >
               alessandra.deserti01@gmail.com
