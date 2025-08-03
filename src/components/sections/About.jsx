@@ -103,25 +103,6 @@ export const About = () => {
               </ul>
             </div>
           </div>
-
-          {/* Personal Info */}
-          <div className="p-6 mt-8 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4">🧾 Personal Skills & Interests</h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>
-                <strong>Languages:</strong> Italian (native), English (C1), Spanish (B2), German (B1)
-              </li>
-              <li>
-                <strong>Soft Skills:</strong> Empathy, adaptability, mental agility, and client-oriented communication
-              </li>
-              <li>
-                <strong>Strengths:</strong> Entrepreneurial mindset, international exposure, cultural fluency
-              </li>
-              <li>
-                <strong>Interests:</strong> Fashion, brand communication, marketing, tennis, personal development
-              </li>
-            </ul>
-          </div>
         </div>
       </RevealOnScroll>
     </section>
