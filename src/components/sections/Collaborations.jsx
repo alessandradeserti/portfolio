@@ -133,7 +133,7 @@ export const Collaborations = () => {
       className="min-h-screen py-20 bg-black flex flex-col items-center justify-center"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-10 emoji-title bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold mb-10 emoji-title bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
           🤝 Professional Collaborations
         </h2>
 
@@ -164,7 +164,7 @@ export const Collaborations = () => {
         {/* Other Collaborations */}
         <RevealOnScroll>
           <div className="max-w-4xl mx-auto p-6 border border-white/10 rounded-xl hover:-translate-y-1 transition-all">
-            <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-transparent text-center">
+            <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
               🌐 Other Collaborations
             </h3>
 

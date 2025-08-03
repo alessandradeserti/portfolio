@@ -8,7 +8,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
             ✨ About Me
           </h2>
 
