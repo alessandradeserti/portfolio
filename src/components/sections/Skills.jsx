@@ -1,41 +1,40 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Skills = () => {
-  const TrainingSkills = [
-    "Personal Training",
-    "Functional Training",
-    "Strength & Conditioning",
-    "Female Body Recomposition",
-    "Athletic Preparation",
-    "Postural Education",
-    "Resistance Training",
-    "Motor Skill Development"
+  const FashionAndModeling = [
+    "Editorial & Commercial Modeling",
+    "Runway & Catwalk",
+    "Posing & Body Expression",
+    "Styling Collaboration",
+    "High Fashion Campaigns",
+    "Photographic Adaptability"
   ];
 
-  const AssessmentSkills = [
-    "Body Composition Analysis",
-    "Progress Tracking",
-    "Client Evaluation",
-    "Anthropometric Measurements",
-    "Nutritional Guidance (Basic)",
-    "Custom Program Design"
+  const CommunicationAndBusiness = [
+    "Brand Communication",
+    "Marketing Fundamentals",
+    "Content Strategy",
+    "Social Media Management",
+    "Public Relations",
+    "Corporate Communication"
   ];
 
   const SoftSkills = [
-    "Client Communication",
-    "Empathy & Motivation",
+    "Empathy & Active Listening",
+    "Cultural Adaptability",
+    "Multilingual Communication",
+    "Client-Oriented Mindset",
     "Team Collaboration",
-    "Adaptability",
-    "Goal-Oriented Planning",
-    "Studio Management"
+    "Professional Demeanor"
   ];
 
-  const ToolsAndPlatforms = [
-    "Digital Coaching Platforms",
+  const ToolsAndLanguages = [
+    "Italian (native)",
+    "English (C1)",
+    "Spanish (B2)",
+    "German (B1)",
     "Google Workspace",
-    "Excel & Sheets",
-    "InBody / Tanita (Bioimpedance)",
-    "Online Scheduling Tools"
+    "Canva / Figma Basics"
   ];
 
   return (
@@ -46,15 +45,15 @@ export const Skills = () => {
       <RevealOnScroll>
         <div className="max-w-4xl mx-auto p-6 border border-white/10 rounded-xl hover:-translate-y-1 transition-all">
           <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            🛠️ Skills
+            🛠️ Skills & Competencies
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Training Skills */}
+            {/* Fashion & Modeling */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Training & Coaching</h3>
+              <h3 className="text-xl font-bold mb-4">Fashion & Modeling</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {TrainingSkills.map((skill, key) => (
+                {FashionAndModeling.map((skill, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
@@ -65,11 +64,11 @@ export const Skills = () => {
               </div>
             </div>
 
-            {/* Assessment Skills */}
+            {/* Communication & Business */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Assessment & Monitoring</h3>
+              <h3 className="text-xl font-bold mb-4">Communication & Business</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {AssessmentSkills.map((skill, key) => (
+                {CommunicationAndBusiness.map((skill, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
@@ -95,16 +94,16 @@ export const Skills = () => {
               </div>
             </div>
 
-            {/* Tools */}
+            {/* Tools & Languages */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Tools & Platforms</h3>
+              <h3 className="text-xl font-bold mb-4">Tools & Languages</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {ToolsAndPlatforms.map((tool, key) => (
+                {ToolsAndLanguages.map((skill, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition"
                   >
-                    {tool}
+                    {skill}
                   </span>
                 ))}
               </div>
