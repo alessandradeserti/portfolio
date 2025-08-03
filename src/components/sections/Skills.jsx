@@ -12,7 +12,7 @@ export const Skills = () => {
     "Brand Communication",
     "Marketing Fundamentals",
     "Content Strategy",
-    "Social Media Management",
+    "Business Planning",
   ];
 
   const SoftSkills = [
