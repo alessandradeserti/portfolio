@@ -19,18 +19,18 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>Master’s Degree in Management e Comunicazione d’Impresa</strong>
+                  <strong>Master’s Degree in Management and Business Communication</strong>
                   <br />
-                  <span className="text-sm text-gray-400">University of Bologna (UNIBO)</span>
+                  <span className="text-sm text-gray-400">University of Modena and Reggio Emilia (UniMore)</span>
                   <br />
-                  <span className="text-sm text-gray-400">Currently attending</span>
+                  <span className="text-sm text-gray-400">2023 - ongoing</span>
                 </li>
                 <li>
                   <strong>Bachelor’s Degree in Communication Sciences</strong>
                   <br />
-                  <span className="text-sm text-gray-400">University of Bologna (UNIBO)</span>
+                  <span className="text-sm text-gray-400">University of Bologna (UniBo)</span>
                   <br />
-                  <span className="text-sm text-gray-400">2020 – Ongoing</span>
+                  <span className="text-sm text-gray-400">09/2020 – 11/2023</span>
                 </li>
                 <li>
                   <strong>High School Diploma in Languages</strong>
@@ -46,45 +46,34 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong>Freelance Fashion Model – IMG Models, WMM Models</strong>
-                  <br />
-                  <span className="text-sm text-gray-400">2017 – Present</span>
-                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
-                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
-                      <li>Active collaborations with IMG Models and WMM Models (Milan).</li>
-                      <li>Runway, editorial, and campaign work for major brands including Gucci, Pupa, and Macron.</li>
-                      <li>International experience with THE FACE Paris, DUO Models London, and CLEAR Management Barcelona.</li>
-                    </ul>
-                  </div>
-                </li>
-
-                <li>
-                  <strong>Fashion Model – SusyMix</strong>
-                  <br />
-                  <span className="text-sm text-gray-400">2022 – Present</span>
-                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
-                    <p className="text-sm text-gray-400">
-                      Corporate image model for SusyMix (Centergross, Bologna).
-                    </p>
-                  </div>
-                </li>
-
+                
                 <li>
                   <strong>International Modeling – Elite Miami (USA)</strong>
                   <br />
-                  <span className="text-sm text-gray-400">1-month assignment</span>
+                  <span className="text-sm text-gray-400">03/2025 (1-month)</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <p className="text-sm text-gray-400">
                       U.S. modeling experience through Elite agency in Miami.
                     </p>
                   </div>
                 </li>
+                <li>
+                  <strong>Freelance Fashion Model – IMG Models, WMM Models</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">2017 – 2025</span>
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
+                      <li>Active collaborations with IMG Models and WMM Models (Milan).</li>
+                      <li>Runway, editorial, and campaign work for major european brands.</li>
+                      <li>International experience with THE FACE Paris, DUO Models London, and CLEAR Management Barcelona.</li>
+                    </ul>
+                  </div>
+                </li>
 
                 <li>
                   <strong>Receptionist – I Portici Hotel Bologna</strong>
                   <br />
-                  <span className="text-sm text-gray-400">2021</span>
+                  <span className="text-sm text-gray-400">2021 (1-year)</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <p className="text-sm text-gray-400">
                       Worked at the Michelin-starred restaurant front office, handling guest reception and event organization.
@@ -92,14 +81,6 @@ export const About = () => {
                   </div>
                 </li>
 
-                <li>
-                  <strong>Event Hostess – Bologna Fiere</strong>
-                  <br />
-                  <span className="text-sm text-gray-400">2019</span>
-                  <p className="text-sm text-gray-400">
-                    Supported various stands during major trade shows and public exhibitions.
-                  </p>
-                </li>
               </ul>
             </div>
           </div>
