@@ -35,15 +35,6 @@ export const Collaborations = () => {
       ig: "https://www.instagram.com/brickellmag/",
       site: "https://brickellmag.com/",
     },
-    /*
-    {
-      img: iltedelle5,
-      alt: "Il Te delle 5",
-      brand: "Il Te delle 5",
-      ig: "https://www.instagram.com/ilthedelle5/",
-      site: "https://ilthedelle5.com/",
-    },
-    */
     {
       img: keybiscayne,
       alt: "Key Biscayne Magazine",
@@ -58,15 +49,6 @@ export const Collaborations = () => {
       ig: "https://www.instagram.com/liscostanzo/",
       site: "https://models.com/people/irina-lis-costanzo",
     },
-    /*
-    {
-      img: maredimoda,
-      alt: "Mare di Moda",
-      brand: "Mare di Moda",
-      ig: "https://www.instagram.com/maredimoda/",
-      site: "https://maredimoda.com/en/home-en/",
-    },
-    */
     {
       img: missitalia,
       alt: "Miss Italia",
@@ -74,24 +56,6 @@ export const Collaborations = () => {
       ig: "https://www.instagram.com/missitaliaemiliaromagna/",
       site: "https://www.missitalia.it/",
     },
-    /*
-    {
-      img: neemakeup,
-      alt: "Nee Make Up Milano",
-      brand: "Nee Make Up Milano",
-      ig: "https://www.instagram.com/neemakeupmilano/",
-      site: "https://en.neemakeupmilano.com/",
-    },
-    */
-    /*
-    {
-      img: oltre,
-      alt: "Oltre Fashion",
-      brand: "Oltre Fashion",
-      ig: "https://www.instagram.com/oltrefashion/",
-      site: "https://www.oltre.com/",
-    },
-    */
     {
       img: pepco,
       alt: "Pepco",
@@ -106,15 +70,6 @@ export const Collaborations = () => {
       ig: "https://www.instagram.com/pesavento_artexpressions/",
       site: "https://www.pesavento.com/",
     },
-    /*
-    {
-      img: piazzaitalia,
-      alt: "Piazza Italia",
-      brand: "Piazza Italia",
-      ig: "https://www.instagram.com/piazzaitaliaofficial/",
-      site: "https://www.piazzaitalia.it/",
-    },
-    */
     {
       img: pupamilano,
       alt: "Pupa Milano",
@@ -152,34 +107,48 @@ export const Collaborations = () => {
     },
   ];
 
-  const otherBrands = [
-    { name: "Gucci", ig: "https://www.instagram.com/gucci/", site: "https://www.gucci.com/it/it/" },
-    { name: "Luxottica", ig: "https://www.instagram.com/essilorluxottica/", site: "https://www.essilorluxottica.com/it/" },
-    { name: "Bulgari", ig: "https://www.instagram.com/bvlgari/", site: "https://www.bulgari.com/it-it/" },
-    { name: "Brickell Magazine", ig: "https://www.instagram.com/brickellmag/", site: "https://brickellmag.com/" },
-    { name: "Pepco", ig: "https://www.instagram.com/pepco_it/", site: "https://pepco.it/" },
-    { name: "Oltre Fashion", ig: "https://www.instagram.com/oltrefashion/", site: "https://www.oltre.com/" },
-    { name: "Il Te delle 5", ig: "https://www.instagram.com/ilthedelle5/", site: "https://ilthedelle5.com/" },
-    { name: "Luisa Via Roma", ig: "https://www.instagram.com/luisaviaroma/", site: "https://www.luisaviaroma.com/" },
-    { name: "Sammontana", ig: "https://www.instagram.com/gelatisammontana/", site: "https://www.sammontana.it/" },
-    { name: "Nee Make Up", ig: "https://www.instagram.com/neemakeupmilano/", site: "https://en.neemakeupmilano.com/" },
-    { name: "Vanbruun", ig: "https://www.instagram.com/vanbruun/", site: "https://vanbruun.com/en-se" },
-    { name: "Saint James", ig: "https://www.instagram.com/saintjames/", site: "https://eu.saint-james.com/" },
-    { name: "Piazza Italia", ig: "https://www.instagram.com/piazzaitaliaofficial/", site: "https://www.piazzaitalia.it/" },
-    { name: "OrioCenter", ig: "https://www.instagram.com/oriocenter/", site: "https://www.oriocenter.it/it" },
-    { name: "DiverseSystem", ig: "https://www.instagram.com/diversesystem/", site: "https://diversesystem.com/en" },
-    { name: "IMG Models (Milan)", ig: "https://www.instagram.com/imgmodels/", site: "https://imgmodels.com/" },
-    { name: "WMM Models (Milan)", ig: "https://www.instagram.com/wmmmodels/", site: "https://www.wmm-models.com/" },
-    { name: "THE FACE (Paris)", ig: "https://www.instagram.com/thefaceparis/", site: "https://models.com/agency/the-face" },
-    { name: "Sinsay", ig: "https://www.instagram.com/sinsay/", site: "https://www.sinsay.com/it/" },
-    { name: "DUO Model (London)", ig: "https://www.instagram.com/duomodelmgmt/", site: "https://www.duomodelmgmt.com/" },
-    { name: "CLEAR Management (Barcelona)", ig: "https://www.instagram.com/clearmodelsmgmt/", site: "https://www.clearmanagement.es/" },
-    { name: "Elite (Miami, USA)", ig: "https://www.instagram.com/elitemodelworld/", site: "https://www.elitemodels.com/" },
-    { name: "Macron", ig: "https://www.instagram.com/macron/", site: "https://www.macron.com/it/" },
-    { name: "SusyMix", ig: "https://www.instagram.com/susymixofficial/", site: "https://www.susymix.com/en/" },
-    { name: "Wyld Box Jewelry (Miami)", ig: "https://www.instagram.com/wyldboxjewelry/", site: "https://wyldboxjewelry.com/" },
-    { name: "Mare di Moda", ig: "https://www.instagram.com/maredimoda/", site: "https://maredimoda.com/en/home-en/" },
-  ];
+  const otherSections = {
+    "Fashion & Retail": [
+      { name: "Gucci", ig: "https://www.instagram.com/gucci/", site: "https://www.gucci.com/it/it/" },
+      { name: "Macron", ig: "https://www.instagram.com/macron/", site: "https://www.macron.com/it/" },
+      { name: "Piazza Italia", ig: "https://www.instagram.com/piazzaitaliaofficial/", site: "https://www.piazzaitalia.it/" },
+      { name: "Pepco", ig: "https://www.instagram.com/pepco_it/", site: "https://pepco.it/" },
+      { name: "Oltre Fashion", ig: "https://www.instagram.com/oltrefashion/", site: "https://www.oltre.com/" },
+      { name: "Luisa Via Roma", ig: "https://www.instagram.com/luisaviaroma/", site: "https://www.luisaviaroma.com/" },
+      { name: "Rinascente", ig: "https://www.instagram.com/rinascente/", site: "https://www.rinascente.it/it/" },
+      { name: "Sinsay", ig: "https://www.instagram.com/sinsay/", site: "https://www.sinsay.com/it/" },
+      { name: "SusyMix", ig: "https://www.instagram.com/susymixofficial/", site: "https://www.susymix.com/en/" },
+    ],
+    "Beauty & Jewelry": [
+      { name: "Nee Make Up", ig: "https://www.instagram.com/neemakeupmilano/", site: "https://en.neemakeupmilano.com/" },
+      { name: "Wyld Box Jewelry (Miami)", ig: "https://www.instagram.com/wyldboxjewelry/", site: "https://wyldboxjewelry.com/" },
+      { name: "Pesavento", ig: "https://www.instagram.com/pesavento_artexpressions/", site: "https://www.pesavento.com/" },
+      { name: "Bulgari", ig: "https://www.instagram.com/bvlgari/", site: "https://www.bulgari.com/it-it/" },
+      { name: "Vanbruun", ig: "https://www.instagram.com/vanbruun/", site: "https://vanbruun.com/en-se" },
+    ],
+    "Magazines & Editorial": [
+      { name: "Vanity Fair", ig: "https://www.instagram.com/vanityfairitalia/", site: "https://www.vanityfair.it/" },
+      { name: "Brickell Magazine", ig: "https://www.instagram.com/brickellmag/", site: "https://brickellmag.com/" },
+      { name: "Il Te delle 5", ig: "https://www.instagram.com/ilthedelle5/", site: "https://ilthedelle5.com/" },
+      { name: "Key Biscayne Magazine", ig: "https://www.instagram.com/keybiscaynemag/", site: "https://keybiscaynemag.com/" },
+    ],
+    "Agencies & Management": [
+      { name: "IMG Models (Milan)", ig: "https://www.instagram.com/imgmodels/", site: "https://imgmodels.com/" },
+      { name: "WMM Models (Milan)", ig: "https://www.instagram.com/wmmmodels/", site: "https://www.wmm-models.com/" },
+      { name: "DUO Model (London)", ig: "https://www.instagram.com/duomodelmgmt/", site: "https://www.duomodelmgmt.com/" },
+      { name: "Elite (Miami, USA)", ig: "https://www.instagram.com/elitemodelworld/", site: "https://www.elitemodels.com/" },
+      { name: "THE FACE (Paris)", ig: "https://www.instagram.com/thefaceparis/", site: "https://models.com/agency/the-face" },
+      { name: "CLEAR Management (Barcelona)", ig: "https://www.instagram.com/clearmodelsmgmt/", site: "https://www.clearmanagement.es/" },
+    ],
+    "Events & Misc": [
+      { name: "OrioCenter", ig: "https://www.instagram.com/oriocenter/", site: "https://www.oriocenter.it/it" },
+      { name: "Mare di Moda", ig: "https://www.instagram.com/maredimoda/", site: "https://maredimoda.com/en/home-en/" },
+      { name: "Saint James", ig: "https://www.instagram.com/saintjames/", site: "https://eu.saint-james.com/" },
+      { name: "Luxottica", ig: "https://www.instagram.com/essilorluxottica/", site: "https://www.essilorluxottica.com/it/" },
+      { name: "DiverseSystem", ig: "https://www.instagram.com/diversesystem/", site: "https://diversesystem.com/en" },
+    ],
+  };
+
   return (
     <section
       id="collaborations"
