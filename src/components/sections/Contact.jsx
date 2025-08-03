@@ -1,5 +1,4 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import { FaInstagram } from "react-icons/fa";
 
 export const Contact = () => {
   return (
@@ -30,8 +29,8 @@ export const Contact = () => {
               +39 389 944 1212
             </a>
           </p>
-          <p className="text-gray-300 text-lg mb-4 flex items-center justify-center gap-2">
-            <FaInstagram className="text-blue-400" size={20} />
+          <p className="text-gray-300 text-lg mb-4">
+            📸 Instagram:{" "}
             <a
               href="https://www.instagram.com/alex_dese/"
               target="_blank"
