@@ -110,21 +110,21 @@ export const Collaborations = () => {
   const otherCollaborations = {
     "Fashion & Retail": [
       "Gucci", "Macron", "Piazza Italia", "Pepco", "Oltre Fashion",
-      "Luisa Via Roma", "Rinascente", "Sinsay", "SusyMix"
+      "Luisa Via Roma", "Rinascente", "Sinsay", "SusyMix",
+      "OrioCenter", "Saint James", "Luxottica"
     ],
     "Beauty & Jewelry": [
       "Nee Make Up", "Wyld Box Jewelry (Miami)", "Pesavento", "Bulgari", "Vanbruun"
     ],
     "Magazines & Editorial": [
-      "Vanity Fair", "Brickell Magazine", "Il Te delle 5", "Key Biscayne Magazine"
+      "Vanity Fair", "Brickell Magazine", "Il Te delle 5", "Key Biscayne Magazine",
+      "Mare di Moda"
     ],
     "Agencies & Management": [
       "IMG Models (Milan)", "WMM Models (Milan)", "DUO Model (London)",
-      "Elite (Miami, USA)", "THE FACE (Paris)", "CLEAR Management (Barcelona)"
+      "Elite (Miami, USA)", "THE FACE (Paris)", "CLEAR Management (Barcelona)",
+      "DiverseSystem"
     ],
-    "Events & Misc": [
-      "OrioCenter", "Mare di Moda", "Saint James", "Luxottica", "DiverseSystem"
-    ]
   };
 
   return (
