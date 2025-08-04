@@ -23,7 +23,7 @@ export const Contact = () => {
           <p className="text-gray-300 text-lg mb-4">
             📞 Mobile Phone:{" "}
             <a
-              href="tel:+39 3758183570"
+              href="tel:+39 389 944 1212"
               className="text-blue-400 hover:underline"
             >
               +39 389 944 1212
