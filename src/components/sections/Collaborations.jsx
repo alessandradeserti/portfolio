@@ -71,11 +71,11 @@ export const Collaborations = () => {
       site: "https://www.pesavento.com/",
     },
     {
-      img: pupamilano,
-      alt: "Pupa Milano",
-      brand: "Pupa Milano",
-      ig: "https://www.instagram.com/pupamilanoitaly/",
-      site: "https://www.pupa.it/home",
+      img: vanityfair,
+      alt: "Vanity Fair",
+      brand: "Vanity Fair",
+      ig: "https://www.instagram.com/vanityfairitalia/",
+      site: "https://www.vanityfair.it/",
     },
     {
       img: rinascente,
@@ -99,11 +99,11 @@ export const Collaborations = () => {
       site: "https://vanbruun.com/en-se",
     },
     {
-      img: vanityfair,
-      alt: "Vanity Fair",
-      brand: "Vanity Fair",
-      ig: "https://www.instagram.com/vanityfairitalia/",
-      site: "https://www.vanityfair.it/",
+      img: pupamilano,
+      alt: "Pupa Milano",
+      brand: "Pupa Milano",
+      ig: "https://www.instagram.com/pupamilanoitaly/",
+      site: "https://www.pupa.it/home",
     },
   ];
 
