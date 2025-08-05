@@ -108,23 +108,44 @@ export const Collaborations = () => {
   ];
 
   const otherCollaborations = {
-    "Fashion & Retail": [
-      "Gucci", "Macron", "Piazza Italia", "Pepco", "Oltre Fashion",
-      "Luisa Via Roma", "Rinascente", "Sinsay", "SusyMix",
-      "OrioCenter", "Saint James", "Luxottica"
+    "High-End & Designer": [
+      "Gucci",
+      "Luisa Via Roma",
+      "Luxottica",
+      "Saint James",
+      "Lisanza Intimo",
+      "Bulgari",
+      "Pesavento",
+      "Vanbruun"
     ],
-    "Beauty & Jewelry": [
-      "Nee Make Up", "Wyld Box Jewelry (Miami)", "Pesavento", "Bulgari", "Vanbruun"
+    "Commercial & Retail": [
+      "Macron",
+      "Piazza Italia",
+      "Pepco",
+      "Oltre Fashion",
+      "Rinascente",
+      "Sinsay",
+      "Susymix",
+      "OrioCenter"
     ],
-    "Magazines & Editorial": [
-      "Vanity Fair", "Brickell Magazine", "Il Te delle 5", "Key Biscayne Magazine",
+    "Beauty & Editorial": [
+      "Nee Make Up",
+      "Wyld Box Jewelry (Miami)",
+      "Vanity Fair",
+      "Brickell Magazine",
+      "Il Te delle 5",
+      "Key Biscayne Magazine",
       "Mare di Moda"
     ],
     "Agencies & Management": [
-      "IMG Models (Milan)", "WMM Models (Milan)", "DUO Model (London)",
-      "Elite (Miami, USA)", "THE FACE (Paris)", "CLEAR Management (Barcelona)",
+      "IMG Models (Milan)",
+      "WMM Models (Milan)",
+      "DUO Model (London)",
+      "Elite (Miami, USA)",
+      "THE FACE (Paris)",
+      "CLEAR Management (Barcelona)",
       "DiverseSystem"
-    ],
+    ]
   };
 
   return (
