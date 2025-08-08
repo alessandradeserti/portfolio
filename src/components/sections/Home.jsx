@@ -13,9 +13,9 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
-            I’m an Italian fashion model and Master’s student in Management and Business Communication. 
-            With nearly a decade of international freelance experience, I’ve worked with top brands and agencies across Europe and the U.S. 
-            I’m currently looking for a Master's thesis project in a company, to bridge academic knowledge with real-world creativity and strategic thinking.
+            I’m an Italian fashion model and Master’s student in Management and Business Communication.
+            With nearly a decade of international freelance experience, I’ve collaborated with top brands and agencies across Europe and the U.S.
+            I’m currently seeking a company-based Master’s thesis project to bridge academic knowledge with practical experience in a professional environment.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
